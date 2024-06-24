@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ambiente do Aluno</title>
+</head>
+<body>
+    <header>
+        <div class="Senai">
+            <img src="../img/image1.png" alt="">
+        </div>
+        <ul class="lista">
+            <li><a href="../usuario/index.html">Home</a></li>
+            <li><a href="./cursos/index.html" class="link">Cursos</a></li>
+            <li><a href="noticia.html" class="link">Notícias</a></li>
+            <li><a href="#" class="link">Sobre o Senai Itabira</a></li>
+        </ul>
+    </header>
+    <h1>Ambiente do Aluno</h1>
+
+    <div class="classroom" onclick="openModal('modal1')">
+        <h2>Turma 1</h2>
+    </div>
+
+    <div class="classroom" onclick="openModal('modal2')">
+        <h2>Turma 2</h2>
+    </div>
+
+    <div class="classroom" onclick="openModal('modal3')">
+        <h2>Turma 3</h2>
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Turma 1</h2>
+            <ul>
+                <li>Atividade 1</li>
+                <li>Atividade 2</li>
+                <li>Atividade 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Turma 2</h2>
+            <ul>
+                <li>Atividade 1</li>
+                <li>Atividade 2</li>
+                <li>Atividade 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Turma 3</h2>
+            <ul>
+                <li>Atividade 1</li>
+                <li>Atividade 2</li>
+                <li>Atividade 3</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="../img/image1.png" alt="Logo SENAI">
+                <p>Serviço de Atendimento ao Cliente:</p>
+                <h1>4020 9030</h1>
+                <p>Ouvidoria:</p>
+                <h1>0800 882 2525</h1>
+                <p>Geral:</p>
+                <h1>(31) 3834-5678</h1>
+                <p2>Horário de funcionamento:
+                    Segunda a sexta-feira das 8h às 17h
+                    Exceto feriados nacionais e locais.</p2>
+            </div>
+
+            <ul class="footer_list1">
+                <li>
+                    <a href="#" class="footer_link">Conheça o SENAI</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Fale Conosco</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Intranet</a>
+                </li>
+            </ul>
+
+            <ul class="footer_list2">
+                <li>
+                    <a href="#" class="footer_link">Gestão 2022-2025</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Trabalhe Conosco</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Estatuto FIEMG</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Ouvidoria</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Integridade</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Aviso de Privacidade e Proteção de Dados</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Manual de Marcas</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Política de Segurança da Informação</a>
+                </li>
+                <li>
+                    <a href="#" class="footer_link">Sindicatos Filiados</a>
+                </li>
+            </ul>
+
+            <div class="final">
+                <ul class="footer_list3">
+                    <li>
+                        <a href="#" class="footer_link">Calendário da Indústria</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Pagamento RPA</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Pagamento a Empresas</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer_link">Licitações e Compras</a>
+                    </li>
+                </ul>
+
+                <h3>Acompanhe a Fiemg</h3>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="twitter">
+                        <img src="../img/x.png" height="33px" alt="Twitter">
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <img src="../img/face.png" height="38px" alt="Facebook">
+                    </a>
+                    <a href="#" class="footer-link" id="youtube">
+                        <img src="../img/you.png" height="43" alt="YouTube">
+                    </a>
+                    <a href="#" class="footer-link" id="Linkedin">
+                        <img src="../img/ln.png" height="41" alt="LinkedIn">
+                    </a>
+                    <a href="#" class="footer-link" id="instagram">
+                        <img src="../img/instagram.png" height="35px" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../Script/scripto.js"></script>
+</body>
+</html>
